@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 import Jumbotron from './Jumbotron';
 
-const Home = () => {
+const App = () => {
   return (
     <div>
       <Jumbotron
@@ -15,4 +15,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default App;
