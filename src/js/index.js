@@ -1,12 +1,20 @@
-//import react into the bundle
 import React from "react";
 import ReactDOM from "react-dom";
-
-// include your styles into the webpack bundle
+import App from "./component/App";
+import CardContainer from "./component/CardContainer";
 import "../styles/index.css";
 
-//import your own components
-import Home from "./component/home.jsx";
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+    <CardContainer />
+  </React.StrictMode>,
+  document.querySelector("#app")
+);
 
-//render your react application
-ReactDOM.render(<Home />, document.querySelector("#app"));
+  
+  
+  
+  
+
+
